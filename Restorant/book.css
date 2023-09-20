@@ -1,0 +1,66 @@
+/* Стили для вкладки "Бронь" */
+.booking-section {
+    background-image: url("../Restorant/images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    /* Цвет текста */
+}
+
+.booking-form {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Полупрозрачный черный фон формы */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.booking-form h1 {
+    color: #ff6600;
+    /* Цвет заголовка */
+    margin-bottom: 20px;
+}
+
+.booking-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff6600;
+    /* Цвет меток полей */
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="tel"],
+.booking-form input[type="date"],
+.booking-form input[type="time"],
+.booking-form input[type="number"],
+.booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Полупрозрачный белый фон полей */
+    color: #fff;
+    /* Цвет текста в полях */
+}
+
+.booking-form button.btn-book {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form button.btn-book:hover {
+    background-color: #ff4500;
+    /* Цвет кнопки при наведении */
+}

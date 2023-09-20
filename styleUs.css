@@ -1,0 +1,53 @@
+.sliderUs {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slideUs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.active-slideUs {
+    opacity: 1;
+}
+
+
+
+.menu-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li:before {
+    content: "•";
+    margin-right: 10px;
+}

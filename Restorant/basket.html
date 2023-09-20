@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Золотой Век - Ресторан</title>
+    <link rel="stylesheet" type="text/css" href="../Restorant/bascet.css">
+</head>
+
+<body class="bascet">
+    <header>
+        <h1>Золотой Век</h1>
+        <nav>
+            <ul>
+                <li><a href="../Restorant/index.html">Главная</a></li>
+                <li><a href="../Restorant/menu.html">Меню</a></li>
+                <li><a href="../aboutUs.html">О нас</a></li>
+                <li><a href="../book.html">Бронь</a></li>
+                <li><a href="../Restorant/contact.html">Контакты</a></li>
+            </ul>
+
+            <div class="cart">
+                <h2>Корзина</h2>
+                <ul class="cart-items">
+                    <!-- Здесь будут отображаться добавленные блюда -->
+                </ul>
+                <a href="menu.html" class="cart-button">Перейти в меню</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h2>Добро пожаловать в Золотой Век!</h2>
+            <p>Наслаждайтесь непревзойденным вкусом и атмосферой.</p>
+            <a href="../Restorant/menu.html" class="cta-button">Посмотреть меню</a>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <div class="container">
+            <h2>Рекомендуемые блюда</h2>
+
+            <div class="featured-item">
+                <img src="../Restorant/images/20.jpg" alt="Бифштекс сочный">
+                <h3>Бифштекс сочный</h3>
+                <p>Нежный и сочный бифштекс с гарниром по вашему выбору.</p>
+                <button class="add-to-cart-button">Добавить в корзину</button>
+            </div>
+
+            <div class="featured-item">
+                <img src="../Restorant/images/20.jpg" alt="Салат Цезарь">
+                <h3>Салат Цезарь</h3>
+                <p>Свежий и вкусный салат с кусочками куриного мяса, сыром и соусом Цезарь.</p>
+                <button class="add-to-cart-button">Добавить в корзину</button>
+            </div>
+        </div>
+    </section>
+
+<div id="cart">
+    <div class="cart-item">
+        <span class="item-name">Блюдо 1</span>
+        <button class="btn-remove">Удалить</button>
+    </div>
+    <div class="cart-item">
+        <span class="item-name">Блюдо 2</span>
+        <button class="btn-remove">Удалить</button>
+    </div>
+</div>
+
+
+<form id="order-form">
+    <input type="password" id="password" placeholder="Введите пароль" required>
+    <button type="submit">Сформировать заказ</button>
+    <div id="error-message"></div>
+</form>
+
+
+
+<div id="orders">
+    <div class="order">
+        <span class="order-details">Заказ #1 - Блюдо 1 (Статус: Новый)</span>
+        <button class="btn-delete">Удалить</button>
+    </div>
+
+    <div class="order">
+        <span class="order-details">Заказ #2 - Блюдо 2 (Статус: Готов)</span>
+        <button class="btn-delete">Удалить</button>
+    </div>
+</div>
+
+
+
+    <footer>
+        <p>© 2023 Золотой Век. Все права защищены.</p>
+    </footer>
+</body>
+
+</html>
